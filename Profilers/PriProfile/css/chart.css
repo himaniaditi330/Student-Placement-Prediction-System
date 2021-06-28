@@ -1,0 +1,15 @@
+	#chartContainer
+			{
+				padding: 0px 0px;
+				float:left;
+				width: 75%; 
+				height: 500px;
+				display: inline-block;
+			}
+			#chartContainer1
+			{
+				float:right;
+				width: 75%; 
+				height: 500px;
+				display: inline-block;
+			}

@@ -1,0 +1,32 @@
+
+           
+
+            h1{
+                margin: 40px 0 60px 0;
+            }
+
+           
+			#chart-container, #chart-container3
+			{
+				padding: 20px 0px;
+				float:left;
+				
+				display: inline-block;
+			}
+			#chart-container1, #chart-container4
+			{
+			
+				padding: 20px 27px;
+				
+				display: inline-block;
+			}
+			#chart-container2, #chart-container5
+			{
+				
+				padding: 20px 0px;
+				float:right;
+				display: inline-block;
+			}
+			
+			
+			

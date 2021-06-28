@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<style>
+.result {
+    margin: auto;
+    width: 35%;
+    border: 2px solid black;
+	background-color:  gray;
+	
+}
+</style>
+
+<head>
+    <title>Your Result</title>
+</head>
+<body>
+<div class="result" align="center">
+    {% if result %}
+    	{% for variable, value in original_input.items() %}
+    		<p><b>{{ variable }}</b> : {{ value }}</p>
+    	{% endfor %}
+    	<br> <p style="font-size:30px"><b>Prediction: </b></p>
+   		<p style="font-size:40px">{{ result }}</p>
+    {% endif %}
+</div>
+</body>
+</html>
